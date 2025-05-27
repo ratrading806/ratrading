@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社RAトレーディング｜焼津市の中古車販売</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header { background: #1a202c; color: white; padding: 1rem; text-align: center; }
+    nav { background: #2d3748; display: flex; justify-content: center; }
+    nav a { color: white; padding: 1rem; text-decoration: none; }
+    nav a:hover { background: #4a5568; }
+    section { padding: 2rem; max-width: 1000px; margin: auto; background: white; margin-top: 1rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    footer { background: #1a202c; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    .car-listing img { width: 100%; max-width: 300px; border-radius: 8px; }
+    .car { margin-bottom: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>株式会社RAトレーディング</h1>
+    <p>静岡県焼津市｜信頼の中古車販売・整備・板金</p>
+  </header>
+  <nav>
+    <a href="#about">当社について</a>
+    <a href="#inventory">在庫情報</a>
+    <a href="#services">サービス</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+
+   当社は積載車も所有しており、万が一の際の引き取り対応や納車にも柔軟に対応可能です。本社兼板金工場は「〒421-0201 静岡県焼津市上小杉863-1」にあり、日本で育ったパキスタン出身のオーナーが、日本語・英語・ウルドゥー語で丁寧に対応します。信頼第一をモットーに、自社認証工場・板金工場を完備し、安心して乗れる中古車を提供しています。
+  </section>
+
+  <section id="inventory">
+    <h2>在庫情報</h2>
+    <div class="car-listing">
+      <div class="car">
+        <img src="car1.jpg" alt="N-BOX 2020年式">
+        <div>
+          <h3>ホンダ N-BOX 2020年式</h3>
+          <p>車検2年付き・総額表示・保証あり</p>
+          <p>価格：89万円（税込）</p>
+        </div>
+      </div>
+      <!-- 他の車も同様に追加可能 -->
+    </div>
+    <p>※最新の在庫は以下のカーセンサー掲載ページでもご確認いただけます：</p>
+    <ul>
+      <li><a href="https://www.carsensor.net/shop/shizuoka/226312002/" target="_blank">RAトレーディング 焼津店（上小杉展示場）の在庫一覧</a></li>
+      <li><a href="https://www.carsensor.net/shop/shizuoka/226312003/" target="_blank">RAトレーディング 藤枝店の在庫一覧</a></li>
+    </ul>
+  </section>
+
+  
+      <li>不要車・過走行車・事故車の買取強化中</li>
+      <li>中古車販売（軽・コンパクト・ハイブリッドなど）</li>
+      <li>自社認証工場での整備・点検・車検</li>
+      <li>板金塗装・事故修理</li>
+      <li>外国人のお客様向けの多言語対応（英語・ウルドゥー語）</li>
+    </ul>
+  </section>
+
+  
+    <h3>買取申し込みフォーム</h3>
+    <form action="#" method="post">
+      <label for="name">お名前:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">メールアドレス:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">電話番号:</label><br>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="carinfo">車の情報（メーカー・車種・年式・走行距離など）:</label><br>
+      <textarea id="carinfo" name="carinfo" rows="5" cols="40" required></textarea><br><br>
+
+      <input type="submit" value="送信">
+    </form>
+    <p>
+      電話：<a href="tel:054-XXX-XXXX">054-XXX-XXXX</a><br>
+      メール：<a href="mailto:info@ra-trading.jp">info@ra-trading.jp</a><br>
+      住所：静岡県焼津市上小杉863-1
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 株式会社RAトレーディング - All rights reserved.</p>
+  </footer>
+</body>
+</html>
