@@ -1,0 +1,13 @@
+
+body { font-family: 'Noto Sans JP', sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+header { background: #111; color: white; padding: 1.5rem; text-align: center; }
+.logo { height: 60px; vertical-align: middle; }
+nav ul { background: #222; list-style: none; padding: 0; display: flex; justify-content: center; margin: 0; }
+nav li { margin: 0; }
+nav a { color: white; padding: 1rem 2rem; display: block; text-decoration: none; }
+nav a:hover { background: #444; }
+section { padding: 2rem; max-width: 1000px; margin: auto; background: white; margin-top: 1rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.gallery { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 2rem; }
+.gallery img { width: 100%; max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); }
+.gallery figcaption { text-align: center; margin-top: 0.5rem; font-size: 0.9rem; }
+footer { background: #111; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
